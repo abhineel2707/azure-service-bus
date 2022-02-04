@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RfidCheckout.Config\RfidCheckout.Config.csproj" />
+    <ProjectReference Include="..\RfidCheckout.Messages\RfidCheckout.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
